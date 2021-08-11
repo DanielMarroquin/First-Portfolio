@@ -545,7 +545,11 @@ img{
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 720px) {
+  .nav_logo_img {
+    width: 36px;
+  }
+
   .home__data {
     letter-spacing: 1px;
   }
@@ -557,5 +561,21 @@ img{
   .home__img {
     width: 51%;
     height: 40%;
+    margin: 20px;
+    overflow: hidden;
   }
+
+  .skills__learn {
+    margin: 50px 55px;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 60px;
+    grid-template-columns: repeat(3, 40px); 
+    grid-template-rows: repeat(5, 40px);
+  }
+
+  .skills__img {
+    padding-top: -100px;
+  }
+
 }
