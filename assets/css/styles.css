@@ -545,16 +545,17 @@ img{
   }
 }
 
-@media screen and (max-width: 970px) {
-  .l-header {
-    width: 100%;
+@media screen and (min-width: 375px) {
+  .home__data {
+    letter-spacing: 1px;
   }
 
-}
+  .home__title, .home__title-color {
+    font-size: 35px;
+  }
 
-@media screan and (max-width: 320px) {
-  .skills__learn {
-    grid-template-columns: repeat(3, 40px);
-    grid-template-rows: repeat(4, 40px);
+  .home__img {
+    width: 51%;
+    height: 40%;
   }
 }
