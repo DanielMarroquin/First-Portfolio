@@ -562,16 +562,22 @@ img{
     width: 51%;
     height: 40%;
     margin: 20px;
-    overflow: hidden;
   }
 
   .skills__learn {
-    margin: 50px 55px;
+    /* margin: 50px 55px; */
     display: grid;
     grid-column-gap: 50px;
     grid-row-gap: 60px;
     grid-template-columns: repeat(3, 40px); 
     grid-template-rows: repeat(5, 40px);
+    place-content: center;
+  }
+
+  
+
+  .title__skills {
+    font-size: 80%;
   }
 
   .skills__img {
