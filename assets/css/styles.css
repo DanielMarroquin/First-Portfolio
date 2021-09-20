@@ -569,7 +569,7 @@ img{
     display: grid;
     grid-column-gap: 50px;
     grid-row-gap: 60px;
-    grid-template-columns: repeat(3, 40px); 
+    grid-template-columns: repeat(4, 40px); 
     grid-template-rows: repeat(5, 40px);
     place-content: center;
   }
