@@ -1,4 +1,4 @@
-/*===== GOOGLE FONTS =====*/
+  /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
 
@@ -545,7 +545,7 @@ img{
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 720px) {
+  @media screen and (min-width: 375px) and (max-width: 720px) {
   .nav_logo_img {
     width: 36px;
   }
